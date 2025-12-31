@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/tanakh-palindrome-finder/',  // <-- שנה לשם ה-repository שלך בדיוק! (כולל הסלאש בסוף וההתחלה)
+  base: '/palindrom3/',          // ← חובה! שם ה-repository שלך בדיוק
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
